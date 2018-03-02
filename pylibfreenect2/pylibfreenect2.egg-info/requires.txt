@@ -1,0 +1,13 @@
+numpy >= 1.7.0
+enum34
+
+[develop]
+cython >= 0.21.0
+
+[docs]
+numpydoc
+sphinx_rtd_theme
+seaborn
+
+[test]
+nose

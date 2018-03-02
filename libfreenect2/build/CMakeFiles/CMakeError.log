@@ -1,0 +1,124 @@
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12491/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12491.dir/build.make CMakeFiles/cmTC_12491.dir/build
+make[1]: Entering directory '/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12491.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_12491.dir/CheckSymbolExists.c.o   -c /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_12491.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_12491.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_12491.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_12491/fast' failed
+make: *** [cmTC_12491/fast] Error 2
+
+File /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49fff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49fff.dir/build.make CMakeFiles/cmTC_49fff.dir/build
+make[1]: Entering directory '/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49fff.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_49fff.dir/CheckSymbolExists.c.o   -c /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_49fff.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_49fff.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_49fff.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_49fff/fast' failed
+make: *** [cmTC_49fff/fast] Error 2
+
+File /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44a4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_44a4d.dir/build.make CMakeFiles/cmTC_44a4d.dir/build
+make[1]: Entering directory '/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44a4d.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_44a4d.dir/CheckSymbolExists.c.o   -c /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_44a4d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_44a4d.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_44a4d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_44a4d/fast' failed
+make: *** [cmTC_44a4d/fast] Error 2
+
+File /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46032/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46032.dir/build.make CMakeFiles/cmTC_46032.dir/build
+make[1]: Entering directory '/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46032.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_46032.dir/CheckSymbolExists.c.o   -c /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:47: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_46032.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_46032.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_46032.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_46032/fast' failed
+make: *** [cmTC_46032/fast] Error 2
+
+File /home/danok/Documents/projects/heisenberg/libfreenect2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
